@@ -93,12 +93,16 @@ Buka browser:
 - `http://127.0.0.1:8000`
 
 ## 9) Login Akun Demo
-Project menyediakan halaman login dan register.
+Setelah proses seeding, akun demo yang tersedia:
 
-Untuk penggunaan biasa:
-- buka halaman register
-- buat akun baru
-- login menggunakan akun yang sudah dibuat
+- Admin:
+  - Email: `admin@cireng.test`
+  - Password: `password`
+- Customer:
+  - Email: `test@example.com`
+  - Password: `password`
+
+Atau kamu juga bisa register akun baru langsung dari halaman register.
 
 ## 10) Jika Gagal Jalan, Cek Ini
 1. Error koneksi database
