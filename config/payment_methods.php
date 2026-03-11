@@ -1,0 +1,80 @@
+<?php
+
+return [
+    'expiry_minutes' => 30,
+
+    'methods' => [
+        'bca_va' => [
+            'code' => 'bca_va',
+            'group' => 'transfer',
+            'label' => 'BCA Virtual Account',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '390108512345',
+            'instruction' => 'Gunakan m-BCA/ATM/Internet Banking dan transfer sesuai total tagihan.',
+        ],
+        'bri_va' => [
+            'code' => 'bri_va',
+            'group' => 'transfer',
+            'label' => 'BRI Virtual Account',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '880112345678901',
+            'instruction' => 'Transfer melalui BRImo/ATM BRI sesuai nominal pesanan.',
+        ],
+        'bni_va' => [
+            'code' => 'bni_va',
+            'group' => 'transfer',
+            'label' => 'BNI Virtual Account',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '988001123456789',
+            'instruction' => 'Bayar lewat BNI Mobile atau ATM BNI ke nomor virtual account.',
+        ],
+        'mandiri_va' => [
+            'code' => 'mandiri_va',
+            'group' => 'transfer',
+            'label' => 'Mandiri Virtual Account',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '700120001234567',
+            'instruction' => 'Gunakan Livin by Mandiri/ATM Mandiri untuk pembayaran.',
+        ],
+        'gopay' => [
+            'code' => 'gopay',
+            'group' => 'ewallet',
+            'label' => 'GoPay',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '085183062643',
+            'instruction' => 'Kirim ke nomor GoPay merchant dan pastikan nominal sesuai.',
+        ],
+        'ovo' => [
+            'code' => 'ovo',
+            'group' => 'ewallet',
+            'label' => 'OVO',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '085183062643',
+            'instruction' => 'Bayar ke nomor OVO merchant sesuai total pesanan.',
+        ],
+        'dana' => [
+            'code' => 'dana',
+            'group' => 'ewallet',
+            'label' => 'DANA',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '085183062643',
+            'instruction' => 'Transfer melalui aplikasi DANA ke nomor merchant.',
+        ],
+        'shopeepay' => [
+            'code' => 'shopeepay',
+            'group' => 'ewallet',
+            'label' => 'ShopeePay',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => '085183062643',
+            'instruction' => 'Lakukan transfer dari ShopeePay ke akun merchant.',
+        ],
+        'qris' => [
+            'code' => 'qris',
+            'group' => 'qris',
+            'label' => 'QRIS',
+            'account_name' => 'Cireng Rujak',
+            'account_number' => 'QRIS-CRJ-001',
+            'instruction' => 'Scan QRIS menggunakan aplikasi bank/e-wallet yang mendukung QRIS.',
+        ],
+    ],
+];
