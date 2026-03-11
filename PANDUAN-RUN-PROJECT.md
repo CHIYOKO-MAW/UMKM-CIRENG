@@ -93,12 +93,12 @@ Buka browser:
 - `http://127.0.0.1:8000`
 
 ## 9) Login Akun Demo
-- Admin:
-  - Email: `admin@cireng.test`
-  - Password: `password`
-- Customer:
-  - Email: `test@example.com`
-  - Password: `password`
+Project menyediakan halaman login dan register.
+
+Untuk penggunaan biasa:
+- buka halaman register
+- buat akun baru
+- login menggunakan akun yang sudah dibuat
 
 ## 10) Jika Gagal Jalan, Cek Ini
 1. Error koneksi database
@@ -126,30 +126,3 @@ Untuk fitur yang butuh scheduler Laravel:
 ```bash
 php artisan schedule:work
 ```
-
-## 12) Panduan Push ke GitHub
-### A. Cek file sensitif
-Jangan upload:
-- `.env`
-- `vendor/`
-- `node_modules/`
-- `.blackbox/`
-- `.blackboxrules`
-
-### B. Commit dan push
-```bash
-git add .
-git commit -m "docs: add run guide and project overview"
-git push origin <nama-branch>
-```
-
-### C. Jika file terlarang terlanjur ikut track
-```bash
-git rm -r --cached .blackbox .blackboxrules node_modules vendor .env
-git commit -m "chore: remove local-only files from tracking"
-git push
-```
-
----
-
-Jika kamu mau, dokumen ini bisa saya lanjutkan jadi format laporan tugas (BAB: latar belakang, tujuan, batasan sistem, arsitektur, flow user/admin, dan hasil uji).

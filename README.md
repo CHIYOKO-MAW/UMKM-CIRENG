@@ -49,38 +49,10 @@ Project ini dibuat untuk kebutuhan tugas pembelajaran, bukan untuk operasional b
   - Lihat riwayat pesanan
   - Pantau trend penjualan
 
-## Akun Demo Default
-Setelah seeding:
-
-- Admin
-  - Email: `admin@cireng.test`
-  - Password: `password`
-- Customer
-  - Email: `test@example.com`
-  - Password: `password`
-
 ## Cara Menjalankan
 Panduan lengkap ada di file:
 
 - [PANDUAN-RUN-PROJECT.md](./PANDUAN-RUN-PROJECT.md)
-
-## Persiapan Push ke GitHub
-Pastikan file/folder berikut tidak ikut ter-push:
-
-- `.env`
-- `vendor/`
-- `node_modules/`
-- `.blackbox/`
-- `.blackboxrules`
-- folder lokal AI/tooling lain
-
-Jika folder tersebut sudah terlanjur ke-track Git, gunakan:
-
-```bash
-git rm -r --cached .blackbox .blackboxrules node_modules vendor .env
-```
-
-Lalu commit ulang.
 
 ## Lisensi
 Untuk kebutuhan pembelajaran/akademik internal.
